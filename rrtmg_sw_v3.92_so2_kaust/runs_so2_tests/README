@@ -1,0 +1,8 @@
+
+12/20/16
+
+This directory contains sample input files and corresponding output files for two atmospheric profiles 
+(GARAND1 and GARAND5) at two solar zenith angles. Files tagged with Toba include a Toba-like profile. 
+Files with no Toba tag do not have SO2. Simple Perl scripts to run the code and store the output are
+also included. 
+

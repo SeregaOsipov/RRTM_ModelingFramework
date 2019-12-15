@@ -1,0 +1,188 @@
+
+-----------------
+  rrtm_v3.3.1_linux_gfortran Makefile
+-----------------
+
+This Makefile was designed for the Linux platform.
+
+It uses the gfortran compiler, with the following options:
+      -O3 -fdefault-real-8 -fdefault-integer-8
+
+The object files used are as follows:
+
+      rrtm.o rtreg.o rtr.o rrtatm.o setcoef.o taumol.o rtregcld.o rtrcld.o extra.o rtrcldmr.o rtregcldmr.o k_g.o cldprop.o rtrdis.o RDI1MACH.o ErrPack.o LINPAK.o disort.o util_linux_intel.o
+
+
+rrtm_v3.3.1_linux_gfortran make in progress ...
+
+src/k_gB11.f src/k_gB14.f src/k_gB07.f src/k_gB05.f src/k_gB12.f src/k_gB03.f src/k_gB16.f src/k_gB09.f src/k_gB08.f src/k_gB10.f src/k_gB13.f src/k_gB15.f src/k_gB01.f src/k_gB04.f src/k_gB06.f src/k_gB17.f src/k_gB02.f
+src/rrtm.f:794:23:
+
+       COMMON /XSECCTRL/ NXMOL,IXINDX(MAXINPX)
+                       1
+Warning: Named COMMON block ‘xsecctrl’ at (1) shall be of the same size as elsewhere (288 vs 320 bytes)
+src/rrtatm.f:959:38:
+
+                         CALL CMPALT(2,PTMP,TTMP,
+                                      1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/6000) at (1) [-Wargument-mismatch]
+src/rrtatm.f:1024:32:
+
+                   CALL CMPALT(2,PTMP,TTMP,
+                                1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/6000) at (1) [-Wargument-mismatch]
+src/rrtatm.f:1088:32:
+
+                   CALL CMPALT(2,PTMP,TTMP,
+                                1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/6000) at (1) [-Wargument-mismatch]
+src/rrtatm.f:6786:35:
+
+                      CALL CMPALT(2,PTMP,TTMP,
+                                   1
+Warning: Actual argument contains too few elements for dummy argument ‘pm’ (2/6000) at (1) [-Wargument-mismatch]
+src/rrtatm.f:6627:22:
+
+       COMMON /c_drive/ ref_lat,hobs,ibmax_b,immax_b,
+                      1
+Warning: Padding of 4 bytes required before ‘wm’ in COMMON ‘c_drive’ at (1); reorder elements or use -fno-align-commons [-Walign-commons]
+src/rrtatm.f:412:22:
+
+       COMMON /c_drive/ ref_lat,hobs,ibmax_b,immax_b,
+                      1
+Warning: Padding of 4 bytes required before ‘wm’ in COMMON ‘c_drive’ at (1); reorder elements or use -fno-align-commons [-Walign-commons]
+src/rrtatm.f:6001:21:
+
+       COMMON /PATHD1/ DVL(MXLAY),WTOTL(MXLAY),
+                     1
+Warning: Named COMMON block ‘pathd1’ at (1) shall be of the same size as elsewhere (48264 vs 48256 bytes)
+src/rrtatm.f:5849:21:
+
+       COMMON /PATHD1/ DVL(MXLAY),WTOTL(MXLAY),
+                     1
+Warning: Named COMMON block ‘pathd1’ at (1) shall be of the same size as elsewhere (48256 vs 48264 bytes)
+src/rrtatm.f:2932:22:
+
+       COMMON /c_drive/ ref_lat,hobs,ibmax_b,immax_b,
+                      1
+Warning: Padding of 4 bytes required before ‘wm’ in COMMON ‘c_drive’ at (1); reorder elements or use -fno-align-commons [-Walign-commons]
+src/rrtatm.f:3063:22:
+
+       COMMON /c_drive/ ref_lat,hobs,ibmax_b,immax_b,
+                      1
+Warning: Padding of 4 bytes required before ‘wm’ in COMMON ‘c_drive’ at (1); reorder elements or use -fno-align-commons [-Walign-commons]
+src/rrtatm.f:3296:22:
+
+       COMMON /c_drive/ ref_lat,hobs,ibmax_b,immax_dum,
+                      1
+Warning: Padding of 4 bytes required before ‘wm’ in COMMON ‘c_drive’ at (1); reorder elements or use -fno-align-commons [-Walign-commons]
+src/rrtatm.f:133:22:
+
+       COMMON /c_drive/ ref_lat,hobs,ibmax_b,immax_b,
+                      1
+Warning: Padding of 4 bytes required before ‘wm’ in COMMON ‘c_drive’ at (1); reorder elements or use -fno-align-commons [-Walign-commons]
+src/rrtatm.f:88:21:
+
+       COMMON /PATHD1/ DVL(MXLAY),WTOTL(MXLAY),
+                     1
+Warning: Named COMMON block ‘pathd1’ at (1) shall be of the same size as elsewhere (48256 vs 48264 bytes)
+src/taumol.f:307:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (43424 vs 38600 bytes)
+src/taumol.f:887:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:1223:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:1587:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:1728:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:2276:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:2623:25:
+
+       COMMON /REFRAT_ETA/ RAT_H2OCO2(MXLAY),RAT_H2OCO2_1(MXLAY),
+                         1
+Warning: Named COMMON block ‘refrat_eta’ at (1) shall be of the same size as elsewhere (67536 vs 57888 bytes)
+src/taumol.f:2995:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:3098:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:3219:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:3227:25:
+
+       COMMON /REFRAT_ETA/ RAT_H2OCO2(MXLAY),RAT_H2OCO2_1(MXLAY),
+                         1
+Warning: Named COMMON block ‘refrat_eta’ at (1) shall be of the same size as elsewhere (57888 vs 67536 bytes)
+src/taumol.f:3477:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:3487:25:
+
+       COMMON /REFRAT_ETA/ RAT_H2OCO2(MXLAY),RAT_H2OCO2_1(MXLAY),
+                         1
+Warning: Named COMMON block ‘refrat_eta’ at (1) shall be of the same size as elsewhere (57888 vs 67536 bytes)
+src/taumol.f:3806:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:3905:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:3915:25:
+
+       COMMON /REFRAT_ETA/ RAT_H2OCO2(MXLAY),RAT_H2OCO2_1(MXLAY),
+                         1
+Warning: Named COMMON block ‘refrat_eta’ at (1) shall be of the same size as elsewhere (57888 vs 67536 bytes)
+src/taumol.f:4193:23:
+
+       COMMON /PROFDATA/ LAYTROP,
+                       1
+Warning: Named COMMON block ‘profdata’ at (1) shall be of the same size as elsewhere (38600 vs 43424 bytes)
+src/taumol.f:4201:25:
+
+       COMMON /REFRAT_ETA/ RAT_H2OCO2(MXLAY),RAT_H2OCO2_1(MXLAY),
+                         1
+Warning: Named COMMON block ‘refrat_eta’ at (1) shall be of the same size as elsewhere (57888 vs 67536 bytes)
+k_gB10.f:30:24:
+
+Warning: Initialization string at (1) was truncated to fit the variable (18/19)
+k_gB17.f:24:28:
+
+Error: BLOCK DATA element ‘hnamkg17’ at (1) must be in COMMON
+k_gB17.f:22:27:
+
+Error: BLOCK DATA element ‘hvrkg17’ at (1) must be in COMMON
+gmake: *** [makefiles/make_rrtm:27: k_g.o] Error 1

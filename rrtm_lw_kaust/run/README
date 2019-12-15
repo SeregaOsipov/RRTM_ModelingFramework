@@ -1,0 +1,5 @@
+This directory contains 7 input files, six of which have SO2 as an input , and one which does not: INPUT_RRTM.GARAND1.
+
+It also contains two output files, OUTPUT_RRTM.GARAND1.Toba and OUTPUT_RRTM.GARAND1; the first was run with a Toba-like SO2 profile,
+the second with a profile with no SO2. The difference between these outputs is in the  file get_rrtm_forcing.out, created by 
+running the IDL code get_rrtm_forcing.pro,  which can be found in the idl subdirectory.

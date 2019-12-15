@@ -1,0 +1,78 @@
+
+-----------------
+  rrtm_sw_linux_intel_v2.7.2 Makefile
+-----------------
+
+This Makefile was designed for the linux_intel platform.
+
+It uses the ifort compiler, with the following options:
+      -fast -r8 -i8
+
+The object files used are as follows:
+
+      rrtm.o RDI1MACH.o rtrdis.o rrtatm.o setcoef.o taumoldis.o ErrPack.o util_linux_intel.o extra.o LINPAK.o disort.o cldprop.o k_g.o 
+
+
+rrtm_sw_linux_intel_v2.7.2 make in progress ...
+
+src/rrtm.f(333): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9902 FORMAT(1X,I3,3X,F11.6,4X,1P,2(G12.6,2X),G13.6,3X,G16.9,0P)
+-------------------------------------^
+src/rrtm.f(661): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9100 FORMAT (A1,1X,I3,5E10.5)
+-------------------------^
+src/rrtm.f(660): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9099 FORMAT (A1,1X,I3,19E10.5)
+--------------------------^
+src/rrtatm.f(132): remark #6375: Because of COMMON, the alignment of object is inconsistent with its type - potential performance impact.   [WM]
+     *                 lvl_1_2,jchar_st(10,2),wm(mxzmd)                         
+----------------------------------------------^
+src/rrtatm.f(1717): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *        '0PROGRAM STOP  -  AVTRAT = ',E12.6,' TDIFF1 = ',F10.4,    FA11680
+---------------------------------------------^
+src/rrtatm.f(1669): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *        /,10X,'LEN     = ',I10,/,10X,'AIRMAS  = ',G12.6,           FA11310
+---------------------------------------------------------^
+src/rrtatm.f(411): remark #6375: Because of COMMON, the alignment of object is inconsistent with its type - potential performance impact.   [WM]
+     *                 lvl_1_2,jchar_st(10,2),wm(mxzmd)                         
+----------------------------------------------^
+src/rrtatm.f(2942): remark #6375: Because of COMMON, the alignment of object is inconsistent with its type - potential performance impact.   [WM]
+     *                 lvl_1_2,jchar_st(10,2),wm(mxzmd)                         
+----------------------------------------------^
+src/rrtatm.f(3078): remark #6375: Because of COMMON, the alignment of object is inconsistent with its type - potential performance impact.   [WM]
+     *                 lvl_1_2,jchar_st(10,2),wm(mxzmd)                         
+----------------------------------------------^
+src/rrtatm.f(3396): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 916  FORMAT ('0',I4,1X,'(ALT:KM)=',F7.3,4X,'(P:',A1,')=',G11.5,4X,             
+-----------------------------------------------------------^
+src/rrtatm.f(3394): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 915  FORMAT ('0',I4,1X,'(ALT:KM)=',F7.3,4X,'(P:',A1,')=',G11.5,4X,             
+-----------------------------------------------------------^
+src/rrtatm.f(3311): remark #6375: Because of COMMON, the alignment of object is inconsistent with its type - potential performance impact.   [WM]
+     *                 lvl_1_2,jchar_st(10,2),wm(mxzmd)                         
+----------------------------------------------^
+src/rrtatm.f(3868): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *     1PE10.4)                                                             
+--------------^
+src/rrtatm.f(4419): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *        'OF THE ATMOSPHERIC PROFILE',//,10X,'ZMAX = ',G12.6,5X,    FA34270
+-------------------------------------------------------------^
+src/rrtatm.f(4420): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *        '  H1 = ',G12.6,5X,'  H2 = ',G12.6,'  HMIN = ',G12.6)      FA34280
+-------------------------^
+src/rrtatm.f(4420): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *        '  H1 = ',G12.6,5X,'  H2 = ',G12.6,'  HMIN = ',G12.6)      FA34280
+--------------------------------------------^
+src/rrtatm.f(4420): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+     *        '  H1 = ',G12.6,5X,'  H2 = ',G12.6,'  HMIN = ',G12.6)      FA34280
+--------------------------------------------------------------^
+src/rrtatm.f(6624): remark #6375: Because of COMMON, the alignment of object is inconsistent with its type - potential performance impact.   [WM]
+     *                 lvl_1_2,jchar_st(10,2),wm(mxzmd)                         
+----------------------------------------------^
+src/util_linux_intel.f(24): remark #7000: Two-digit year return value may cause problems with the year 2000.  Use DATE_AND_TIME instead.   [IDATE]
+      CALL IDATE(iday,imon,iyear) 
+-----------^
+
+=================
+  Makefile done
+=================

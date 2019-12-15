@@ -1,0 +1,10 @@
+
+12/20/16
+
+This directory contains 7 input files, one that contains no SO2 (INPUT_RRTM.GARAND1), and six that include
+SO2 as an input (three atmospheric profiles and two different SO2 amounts). Files tagged with Toba have a
+Toba-like SO2 profile and files tagged with Pinatubo have a Pinatubo-like SO2 profile.   
+
+Output files are also provided for all seven input cases. 
+
+A Perl script is included, which will run all of the cases. 

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles
+END
+make_rrtmg_lw_sun
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles/make_rrtmg_lw_sun
+END
+make_rrtmg_lw_OS_X_g95
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles/make_rrtmg_lw_OS_X_g95
+END
+make_rrtmg_lw_linux_pgi
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles/make_rrtmg_lw_linux_pgi
+END
+make_rrtmg_lw_OS_X_ibm_xl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles/make_rrtmg_lw_OS_X_ibm_xl
+END
+make_rrtmg_lw_sgi
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles/make_rrtmg_lw_sgi
+END
+make_rrtmg_lw_aix_xlf90
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aer/!svn/ver/30799/project/RD/RRTMG_LW/branches/v4.91_so2_kaust/build/makefiles/make_rrtmg_lw_aix_xlf90
+END

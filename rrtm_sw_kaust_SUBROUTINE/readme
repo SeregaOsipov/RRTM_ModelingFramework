@@ -1,0 +1,2 @@
+this version has branched out from the RRTM with SO2 support.
+It is supposed to be a standalone routing coupled with MATLAB and later on injected into the WRF
